@@ -1,0 +1,30 @@
+Rust By Practice:
+https://practice.course.rs/
+
+
+- Source code in every folder are my answers from course above ^ 
+
+
+Rust Setup in VSCode
+https://www.youtube.com/watch?v=aYsUBddY7KY
+
+
+Learn Rust in YT:
+https://www.youtube.com/watch?v=BpPEoZW5IiY
+
+
+Resources:
+- Rustlings
+    > Small exercises
+- Rust by Example
+    > Concise version of the book focusing on code, less text
+- Rust by Practice
+
+
+Organize Multiple Files with Modules:
+https://www.youtube.com/watch?v=479UOpYZRHs
+
+
+
+
+
