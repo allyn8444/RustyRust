@@ -2,7 +2,7 @@
 #![allow(dead_code)] // allow unused functions
 
 pub fn run(){
-    println!("Numbers function");
+    println!("Topic: Numbers");
     // int1();
     // int2();
     // int3();
