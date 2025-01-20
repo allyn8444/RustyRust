@@ -1,7 +1,7 @@
 #![allow(unused_variables)] // allow unused variables
 #![allow(dead_code)] // allow unused functions
 
-pub fn function(){
+pub fn run(){
     println!("Numbers function");
     // int1();
     // int2();
