@@ -3,7 +3,7 @@ https://practice.course.rs/
 
 
 - Source code in every folder are my answers from course above ^ 
-
+- Check for more info in my notion.so
 
 Rust Setup in VSCode
 https://www.youtube.com/watch?v=aYsUBddY7KY
@@ -25,6 +25,11 @@ Organize Multiple Files with Modules:
 https://www.youtube.com/watch?v=479UOpYZRHs
 
 
+Naming Conventions in Rust:
+https://rust-lang.github.io/api-guidelines/naming.html
 
 
 
+To Compile and Run:
+- cargo build
+- cargo run
