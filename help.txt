@@ -33,3 +33,5 @@ https://rust-lang.github.io/api-guidelines/naming.html
 To Compile and Run:
 - cargo build
 - cargo run
+shortcut: cargo build; cargo run
+
