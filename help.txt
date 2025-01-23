@@ -29,9 +29,16 @@ Naming Conventions in Rust:
 https://rust-lang.github.io/api-guidelines/naming.html
 
 
+Rust Folder Starter:
+run:
+- cargo init
+
 
 To Compile and Run:
 - cargo build
 - cargo run
-shortcut: cargo build; cargo run
+
+Shortcut:
+OR you can just type: cargo run
+
 
