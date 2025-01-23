@@ -27,6 +27,7 @@ fn own_exp1(){
     let s = String::from("hello"); // s comes into scope
     takes_ownership(s);       // s value MOVES into the function
     // println!("{}", s); // returns an error. Cuz s value is now in the function (moved)
+    // you can you use .clone() here to copy
 
     let x = 5;                       // x comes into scope
     makes_copy(x);          // x value COPIED into the function
