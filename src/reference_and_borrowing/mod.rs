@@ -3,14 +3,17 @@
 
 pub fn run(){
     println!("Reference and Borrowing 5.2 Topic");
+
+    // rb1();
+    // rb2();
+    // rb3();
+    rb4();
 }
 
-/*
 
 
 
-
-fn main() {
+fn rb1() {
    let x = 5;
    // Fill the blank
    let p = &x; // use ampersand (&) to get memory address of a value
@@ -21,7 +24,7 @@ fn main() {
 
 
 
-fn main() {
+fn rb2() {
     let x = 5;
     let y = &x;
 
@@ -35,6 +38,38 @@ fn main() {
 
 
 
+fn rb3() {
+    // Fix error
+    let s = String::from("hello, "); // doesn't need to be mutable
+
+    borrow_object(s);
+
+    println!("Success!");
+}
+
+fn borrow_object(s: String) -> String{ // change &String to String
+    // Put return value -> String
+    // return s
+
+    s
+}
+
+
+
+
+// Fix error
+fn rb4() {
+    let mut s = String::from("hello, ");
+
+    // need to put mutable reference of s
+    push_str(&mut s);
+
+    println!("Success!");
+}
+
+fn push_str(s: &mut String) {
+    s.push_str("world")
+}
 
 
 
@@ -43,4 +78,3 @@ fn main() {
 
 
 
-*/
