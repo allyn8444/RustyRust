@@ -17,6 +17,8 @@ pub fn run_string() {
     // s8();
     // s9();
     // s10();
+    // s11();
+    s12();
 }
 
 
@@ -162,4 +164,31 @@ fn s10() {
     assert_eq!(long_delimiter, "Hello, \"##\"");
 
     println!("Success!");
+}
+
+
+
+
+fn s11() {
+    let s1 = String::from("hi,中国");
+    let h = &s1[0..1]; // Modify this line to fix the error, tips: `h` only takes 1 byte in UTF8 format
+     // ✅ Extracts the first byte as a string slice
+
+    assert_eq!(h, "h");
+
+    let h1 = &s1[3..6]; // Modify this line to fix the error, tips: `中`  takes 3 bytes in UTF8 format
+    // &s1[3..6]; ✅ Extracts "中" correctly
+    assert_eq!(h1, "中");
+
+    println!("Success! - 11");
+}
+
+
+
+fn s12() {
+    // Fill the blank to print each char in "你好，世界"
+    for c in "你好，世界".chars() {
+        // Solution: .chars() allows us to iterate over the Unicode scalar values (i.e., complete characters) instead of bytes.
+        println!("{}", c)
+    }
 }
